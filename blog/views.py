@@ -3,6 +3,7 @@ from blog.models import Post
 from django.utils import timezone
 from django.shortcuts import get_object_or_404
 from blog.forms import CommentForm
+
 import logging
 # Create your views here.
 logger = logging.getLogger(__name__)
