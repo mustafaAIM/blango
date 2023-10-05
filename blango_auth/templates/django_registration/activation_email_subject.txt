@@ -1,0 +1,2 @@
+expiration_days = 7
+Activate your Blango account! You have {{ expiration_days }} days!
