@@ -42,6 +42,3 @@ if settings.DEBUG:
         path("__debug__/", include(debug_toolbar.urls)),
     ]
    
-else :
-   import logging 
-   logging.getLogger(__name__).debug("not work")
